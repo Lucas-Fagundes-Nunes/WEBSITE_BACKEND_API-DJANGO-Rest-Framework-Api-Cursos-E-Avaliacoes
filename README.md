@@ -1,7 +1,7 @@
 # API Django Framework Cursos e Avaliações
 
 
-> Sistema desenvolvido para aprendizado, com django rest framework, utilizando os métodos GET, POST, PUT e DELETE, para os modelos cursos e avaliações dos cursos.
+- Sistema desenvolvido para aprendizado, com django rest framework, utilizando os métodos GET, POST, PUT e DELETE, para os modelos cursos e avaliações dos cursos.
 
 ### URLS
 Foram desenvolvidas no curso, 2 versões, para aprender a lidar com versões, fazem as mesmas requisições, porem na versão 1 foi utilizado o generics e na versão 2, foi utilizado o viewsets. 
@@ -36,13 +36,13 @@ Foram desenvolvidas no curso, 2 versões, para aprender a lidar com versões, fa
 ### Autenticação
 Como autenticação foi utilizado o formato Token ao invés de Session, para trazer mais para como será usado no dia a dia pelas aplicações.
 
-##### > Restrição Cursos: 
+##### - Restrição Cursos: 
 * GET: Apenas usuários com token;
 * POST: Apenas usuário que tenham permissão pelo Django ( DjangoModelPermissions );
 * PUT: Apenas usuário que tenham permissão pelo Django ( DjangoModelPermissions );
 * DELETE: Apenas Super usuário;
 
-##### > Restrição Avaliação: 
+##### - Restrição Avaliação: 
 * GET: Todos os usuários;
 * POST: Apenas usuários com token;
 * PUT: Apenas usuários com token;
