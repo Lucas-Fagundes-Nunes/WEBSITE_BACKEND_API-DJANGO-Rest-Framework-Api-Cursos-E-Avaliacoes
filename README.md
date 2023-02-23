@@ -48,9 +48,10 @@ Como autenticação foi utilizado o formato Token ao invés de Session, para tra
 * PUT: Apenas usuários com token;
 * DELETE: Apenas usuários com token;
 
-### Linguagem, Bibliotecas, Frameworks
+### Linguagem, Bibliotecas, Frameworks e programas
 * Python;
 * Django;
 * Django Rest Framework;
 * Django_filters;
 * Avg;
+* Insomnia
